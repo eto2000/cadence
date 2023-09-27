@@ -2,16 +2,16 @@
   <div class="hello">
     <img @click="onClick" alt="Vue logo" src="../assets/logo.png">
 
-    <h2 >왼발에 맞춰 <span style="color: red">로고</span>를 터치하세요</h2>
+    <h3 >왼발에 맞춰 <span style="color: red">로고</span>를 터치하세요</h3>
 
     <br>
-    <h2>데이터가 많을수록 정확합니다.</h2>
+    <h3>데이터가 많을수록 정확합니다.</h3>
 
     <br>
-    <h1>{{ result }}</h1>
+    <h3>{{ result }}</h3>
 
     <br>
-    <h1 @click="onInit">초기화</h1>
+    <h3 @click="onInit">초기화</h3>
 
   </div>
 </template>
