@@ -3,14 +3,8 @@
     <img @click="onClick" alt="Vue logo" src="../assets/logo.png">
 
     <h3 >왼발에 맞춰 <span style="color: red">로고</span>를 터치하세요</h3>
-
-    <br>
     <h3>데이터가 많을수록 정확합니다.</h3>
-
-    <br>
     <h3>{{ result }}</h3>
-
-    <br>
     <h3 @click="onInit">초기화</h3>
 
   </div>
